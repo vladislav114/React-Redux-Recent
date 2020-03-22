@@ -1,0 +1,41 @@
+.homepage {
+  margin-top: 2rem;
+}
+
+.col {
+  background: transparent;
+}
+.fa {
+  color: black;
+}
+
+.homepage-content {
+  position: relative;
+  height: 100vh;
+}
+
+.main-container {
+  border-right: 1px solid lightgray;
+}
+
+.latest-event {
+  padding-bottom: 4rem;
+  border-top: 1px solid lightgray;
+}
+
+.latest-event .event-card {
+  margin: auto;
+}
+
+.latest-event h5 {
+  font-weight: bold;
+  font-size: 2.1rem;
+  padding-top: 2rem;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .row {
+    margin: auto;
+  }
+}

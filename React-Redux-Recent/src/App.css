@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+hr {
+  width: 100px;
+  padding: 0;
+  margin: auto;
+  margin-top: 0;
+}
+
+.button-dark {
+  background-color: darkslategray;
+  border: none;
+  color: white;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.8rem;
+  transition: 0.2s;
+}
+
+.button-dark:hover {
+  background-color: rgb(71, 117, 117);
+}
+
+.button-dark:focus {
+  outline: none;
+}
+
+.button-dark-outline {
+  background-color: transparent;
+  border: 1px solid darkslategray;
+  color: darkslategray;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.8rem;
+  transition: 0.2s;
+}
+
+.button-dark-outline:hover {
+  background-color: darkslategray;
+  color: white;
+}
+
+.button-dark-outline:focus {
+  outline: none;
+}

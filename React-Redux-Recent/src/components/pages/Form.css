@@ -1,0 +1,171 @@
+.form {
+  position: relative;
+  height: 95vh;
+  background: url("../../background.jpg");
+  background-size: cover;
+  background-attachment: top;
+}
+
+.form form {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40rem;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.685);
+  padding: 3rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.login-logo {
+  width: 10rem;
+}
+.form .heading {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: darkslategray;
+}
+
+.form form input,
+.form form textarea {
+  border: none;
+  margin: 0.3rem 0;
+  color: rgb(73, 72, 72);
+  letter-spacing: 0.5px;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.form form button {
+  border: 2px solid #e8f0fe;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: darkslategray;
+  color: #e8f0fe;
+  padding: 0.5rem 1rem;
+  width: 60%;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.form form button:hover {
+  background-color: rgb(66, 109, 109);
+}
+
+.form form textarea {
+  resize: none;
+}
+
+.form form label {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 1.4rem;
+}
+
+.form form label + input {
+  margin-top: 0;
+}
+
+::-webkit-file-upload-button {
+  border: 2px solid #e8f0fe;
+  background: darkslategray;
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 1rem;
+  transition: 0.2s;
+}
+
+::-webkit-file-upload-button:hover {
+  background: #e8f0fe;
+  color: darkslategray;
+  border: 2px solid darkslategray;
+  cursor: pointer;
+}
+
+.form form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  color: gray;
+}
+
+.form form select option {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  color: black;
+}
+
+.form__radio {
+  text-align: left;
+  margin: 0.5rem;
+  margin-top: 0;
+}
+
+.radio {
+  width: fit-content !important;
+  margin-left: 1rem !important;
+}
+
+.team-register {
+  width: 50%;
+  display: none;
+  background: white;
+  padding: 2rem;
+  position: absolute;
+  border-radius: 5px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 90;
+  box-shadow: 0 0 0 999rem rgba(0, 0, 0, 0.8);
+}
+
+.team-register input {
+  width: 100%;
+  border: 1px solid darkslategray;
+  border-radius: 3px;
+  margin: 0.3rem 0;
+  padding: 0 1rem;
+}
+
+.team-register .btn-close {
+  position: absolute;
+
+  right: 0.5rem;
+  top: 0.5rem;
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  color: rgb(165, 52, 52);
+  padding: 0 0.7rem;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+.team-register .btn-close:hover {
+  background: rgb(165, 52, 52);
+  color: white;
+}
+
+.team-register-show {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-register {
+    width: 95%;
+  }
+}
